@@ -1,0 +1,52 @@
+:root {
+
+
+    --primary: #2563eb; 
+    --primary-dark: #1d4ed8;
+    --secondary: #10b981;
+    --danger: #ef4444;
+    --warning: #f59e0b;
+    --grade-a: #10b981;
+    --grade-b: #2563eb;
+    --grade-c: #f59e0b;
+    --grade-d: #f97316;
+    --grade-f: #ef4444;
+
+    --bg: #f8fafc;
+    --surface: #ffffff;
+    --text: #1e293b;
+    --text-muted: #64788b;
+    --border: #e2e8f0;
+
+    --shadow-sm: 0 1px 3px rgba(0,0,0,0.10);
+    --shadow-md: 0 4px 12px rgba(0,0,0,0.12);
+    --radius: 8px;
+    --radius-lg: 12px; 
+}
+
+/* css reset*/
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* body */
+body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main { flex: 1;}
+
+/* container*/
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
