@@ -41,3 +41,18 @@ function renderCalculator () {
 // 2. update text element
 // 3. update animated progress bar 
 // 4. update the home page stats too
+//
+/**
+ *  5. subject.js(form, events, validation)
+ * a. add subject form 
+ * function () {
+ *  function to open form 
+ * }
+ * if editing, pre-fill the form 
+ * function to close form 
+ * 
+ * 
+ * b. handle form submit 
+ * 1. validation(grade must be a number between 0 and 100)
+ * 2. 
+ */
