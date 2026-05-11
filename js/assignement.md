@@ -170,4 +170,15 @@ Follow these steps to test your work:
 8. **Table:** Verify all 4 subjects appear with correct calculations
 9. **Test reload:** Edit `data.js` values and reload—everything should update
 
+https://github.com/coreybutler/nvm-windows/releases
+nvm install 20.11.1
+nvm use 20.11.1
+node -v
+npm -v
+rd /s /q node_modules
+del package-lock.json
+npm cache clean --force
+npm install --include=optional
+npm run dev
+
 ---
