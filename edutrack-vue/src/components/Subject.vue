@@ -50,8 +50,9 @@
         if (g >= 70) return 'C'
         if (g >= 60) return 'D'
         return 'F'
+    });
 
-        const gradeColor = computed(() => {
+     const gradeColor = computed(() => {
             const g = props.subject.grade
             if (g >= 90) return '#10b981'
             if (g >= 80) return '#2563eb'
@@ -59,6 +60,4 @@
             if (g >= 60) return '#f97316'
             return '#ef4444'
         });
-
-    });
     </script>
